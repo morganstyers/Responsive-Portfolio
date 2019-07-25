@@ -93,6 +93,11 @@ h3{
 }
 img{ 
     float: left;
+   
+    
+
+    
+    
 }
 .column{
 float: left;
@@ -109,9 +114,12 @@ float: left;
   .text-block{
     position: absolute;
     display: block;
+  
+    text-align:center;
     font-family: Arial, Helvetica, sans-serif;
      background-color: #4aaaa5;
     color:#ffffff;
+    margin-top: 150px;
 
   }
 footer{
@@ -143,8 +151,17 @@ footer{
 
    main{
        width:90%;
-       text-align: center;
+       text-align: left;
+       margin-right:30px;
    }
+ 
+
+    .text-block{
+        
+        margin: 10px;
+        margin-top: 80px;
+
+    }
    p{
        
        width:100%;
@@ -169,6 +186,14 @@ footer{
            margin-left:40px;
            margin-right: 20px;
            width:90%;
+       }
+
+
+       .text-block{
+           width: 200px;
+           margin: 10px;
+           margin-top: 80px;
+
        }
    
 }
