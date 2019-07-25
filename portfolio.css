@@ -93,7 +93,7 @@ h3{
 }
 img{ 
     float: left;
-   
+   margin:10px;
     
 
     
@@ -114,12 +114,14 @@ float: left;
   .text-block{
     position: absolute;
     display: block;
-  
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
-     background-color: #4aaaa5;
+    background-color: #4aaaa5;
     color:#ffffff;
     margin-top: 150px;
+    width: 400px;
+    padding: 10px;
+    margin-left:10px;
 
   }
 footer{
@@ -133,7 +135,9 @@ footer{
 }
 @media screen and (max-width:640px){
   
-    
+    *{
+        
+    }
    
     header{
        text-align: center;
@@ -152,16 +156,8 @@ footer{
    main{
        width:90%;
        text-align: left;
-       margin-right:30px;
+       
    }
- 
-
-    .text-block{
-        
-        margin: 10px;
-        margin-top: 80px;
-
-    }
    p{
        
        width:100%;
@@ -190,10 +186,6 @@ footer{
 
 
        .text-block{
-           width: 200px;
-           margin: 10px;
-           margin-top: 80px;
-
        }
    
 }
