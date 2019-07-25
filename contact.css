@@ -143,3 +143,32 @@ footer{
     border-top: 8px solid #4aaaa5;
 
 }
+
+@media screen and (max-width:640px){
+    body{
+        
+    }
+    header{
+        text-align: center;
+         width:100%;
+  }
+    h1{
+        text-align: center;
+        width:100%;
+       
+    }
+    nav,ul,li,textarea{
+        text-align: center;
+        width:100%;
+        display: inline;
+        float:none;
+    }
+    #form{ 
+        width:100%;
+    }
+    input{
+        
+
+    }
+}
+
