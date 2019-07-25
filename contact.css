@@ -155,20 +155,26 @@ footer{
     h1{
         text-align: center;
         width:100%;
-       
     }
-    nav,ul,li,textarea{
-        text-align: center;
-        width:100%;
-        display: inline;
-        float:none;
+    nav{
+    background: #ffffff;
+    width:100%;
+    text-align: center;
+    float: none;    
     }
-    #form{ 
-        width:100%;
+    main{ 
+        width: 90%;
+        border: 1px solid #cccccc;
     }
-    input{
-        
+   #name,#email,#message{
+      width:100%;
+      border: 1px solid #cccccc;
+    }
+    #submitbutton{
 
+    }
+    footer{
+        position: sticky;
     }
 }
 
