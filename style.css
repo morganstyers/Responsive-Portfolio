@@ -131,8 +131,7 @@ footer{
     nav{
     background: #ffffff;
     width:100%;
-    text-align: center;
-    float: none;    
+      
     }
 
     .main{
@@ -145,7 +144,7 @@ footer{
     header{
      width:100%;
     }
-    
+
     nav{
         display: inline;
     } 
