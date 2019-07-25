@@ -141,7 +141,20 @@ footer{
     }
  }
  @media screen and (max-width:768px){
+    
+    header{
+     width:100%;
+    }
+    
+    nav{
+        display: inline;
+    } 
 
+    .main{
+        margin-left:40px;
+        margin-right: 20px;
+        width:90%;
+    }
 }
 
 

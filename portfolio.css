@@ -138,8 +138,7 @@ footer{
    nav{
    background: #ffffff;
    width:100%;
-   text-align: center;
-   float: none;    
+   
    }
 
    main{
@@ -155,7 +154,21 @@ footer{
 
 @media screen and (max-width:768px){
 
-    main{
-        width:80%;
-    }
+    header{
+        width:100%;
+       }
+       
+       nav{
+           display: inline;
+           background: #ffffff;
+           
+           
+       } 
+   
+       main{
+           margin-left:40px;
+           margin-right: 20px;
+           width:90%;
+       }
+   
 }
