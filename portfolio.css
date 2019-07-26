@@ -186,11 +186,13 @@ footer{
        }
        
        nav{
+           
            display: inline;
            background: #ffffff;
        } 
        img{
            width:90%;
+           display: inline;
        }
        .text-block{
            width: 378px;
@@ -199,7 +201,7 @@ footer{
        main{
            margin-left:40px;
            margin-right: 20px;
-           width:90%;
+           width:50%;
        }
 
 }
