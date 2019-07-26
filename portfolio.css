@@ -135,10 +135,7 @@ footer{
 }
 @media screen and (max-width:640px){
   
-    *{
-        
-    }
-   
+
     header{
        text-align: center;
         width:100%;
