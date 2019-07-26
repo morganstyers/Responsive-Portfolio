@@ -175,6 +175,9 @@ footer{
        img{
            width:90%;
        }
+       .text-block{
+           width: 90%;
+       }
    
        main{
            margin-left:40px;
