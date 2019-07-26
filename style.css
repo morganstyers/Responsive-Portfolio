@@ -91,7 +91,7 @@ footer{
     width: 100%;
     padding: 20px;
     bottom: 0;
-    position: fixed;
+    position: sticky;
     border-top: 8px solid #4aaaa5;
 
 }
@@ -155,20 +155,43 @@ footer{
     }
  }
  @media screen and (max-width:768px){
-    
     header{
-     width:100%;
-    }
+    width:100%;
+}
 
-    nav{
-        display: inline;
-    } 
-
-    .main{
-        margin-left:40px;
-        margin-right: 20px;
-        width:90%;
-    }
+p{
+    float:left;
 }
 
 
+
+@media screen and (max-width:980px)
+{
+   
+    header{
+        width:100%;
+        }
+       
+       nav{
+           display: inline;
+           background: #ffffff;
+           
+       } 
+       img{
+           display: inline-block;
+           margin-left: 5px;
+           margin-right:25px;
+           margin-bottom: 45px;
+       }
+       .label{
+           width: 225px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        
+       }
+   
+       main{
+           margin-left:40px;
+           margin-right: 20px;
+           width:60%;
+       }
+}
