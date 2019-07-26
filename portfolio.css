@@ -135,7 +135,9 @@ footer{
 }
 @media screen and (max-width:640px){
   
-
+*{
+    margin: auto 0;
+}
     header{
        text-align: center;
         width:100%;
@@ -149,13 +151,20 @@ footer{
    width:100%;
    
    }
+   img{
+       width: 100%;
+   }
 
    main{
-       width:90%;
+       width:100%;
        text-align: left;
-       
    }
+   
    .text-block{
+       width: 85%;
+       padding:5px;
+    
+   }
     
 }
 
@@ -163,6 +172,10 @@ footer{
        
        width:100%;
        margin: 0;
+   }
+   footer{
+       margin-top: 40px;
+    
    }
 }
 
