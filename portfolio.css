@@ -133,49 +133,26 @@ footer{
 }
 @media screen and (max-width:640px){
   
-*{
-    margin: auto 0;
-}
+    body{
+        
+    }
     header{
-       text-align: center;
-        width:100%;
-   }
+        text-align: center;
+         width:100%;
+  }
     h1{
-       text-align: center;
-       width:100%;
-       padding-right:25px;
-   }
-   nav{
+        text-align: center;
+        width:100%;
+    }
+    nav{
     background: #ffffff;
     width:100%;
-    
    
-   }
-   img{
-       width: 100%;
-   }
-
-   main{
-       width: 100%;
-       text-align: left;
-   }
-   
-   .label{
-      width:100%;
-       padding:5px;
-    
-   }
-
-   p{
-       
-       width:100%;
-       margin: 0;
-   }
-
-   footer{
-       margin-top: 40px;
-    
-   }
+    }
+    main{ 
+        width: 90%;
+        border: 1px solid #cccccc;
+    }
 }
 
 @media screen and (max-width:768px){

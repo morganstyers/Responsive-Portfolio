@@ -146,7 +146,6 @@ footer{
 
 @media screen and (max-width:640px){
     body{
-        
     }
     header{
         text-align: center;
@@ -162,9 +161,11 @@ footer{
    
     }
     main{ 
-        width: 90%;
+        width: 80%;
         border: 1px solid #cccccc;
+        
     }
+  
    #name,#email,#message{
       width:100%;
       border: 1px solid #cccccc;
