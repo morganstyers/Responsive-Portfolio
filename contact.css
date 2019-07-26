@@ -163,7 +163,10 @@ footer{
     main{ 
         width: 80%;
         border: 1px solid #cccccc;
-        
+        margin-left:30px !important;
+        margin-right:20px !important;
+        margin-top: 10px;
+       
     }
   
    #name,#email,#message{
@@ -171,10 +174,12 @@ footer{
       border: 1px solid #cccccc;
     }
     #submitbutton{
-
+        float:left;
+     
+    
     }
     footer{
-        position: fixed;
+        position: sticky;
     }
 }
 @media screen and (max-width:768px){
