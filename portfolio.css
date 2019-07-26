@@ -155,6 +155,10 @@ footer{
        text-align: left;
        
    }
+   .text-block{
+    width: 90%;
+}
+
    p{
        
        width:100%;
