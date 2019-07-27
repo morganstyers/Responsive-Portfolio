@@ -62,7 +62,7 @@ a{
     color: #777777; 
 }
 
-main{
+.main{
     background:#ffffff;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
@@ -102,7 +102,7 @@ textarea{
 
 
 #name,#email,#message {
-width:100%;
+    width:100%;
   padding:5px;
   margin-bottom:15px;
 }
@@ -139,46 +139,43 @@ footer{
     width: 100%;
     padding: 20px;
     bottom: 0;
-    position: fixed;
+    position: sticky;
     border-top: 8px solid #4aaaa5;
 
 }
 
 @media screen and (max-width:640px){
-    body{
+    body,*{
+        max-width: 640px;
+       position: static;
+       margin: 0 auto;
     }
-    header{
-        text-align: center;
-         width:100%;
-  }
-    h1{
-        text-align: center;
-        width:100%;
-    }
-    nav{
-    background: #ffffff;
-    width:100%;
-   
-    }
-    main{ 
-        width: 80%;
-        border: 1px solid #cccccc;
-        margin-left:30px !important;
-        margin-right:20px !important;
-        margin-top: 10px;
+   header{
+       text-align: center;
+        width:100%
+   }
+   h1{
+       text-align: center;
+       width:100%;
+       margin: auto;
        
-    }
-  
-   #name,#email,#message{
-      width:100%;
-      border: 1px solid #cccccc;
-    }
-    #submitbutton{
-        float:left;
-    }
-    footer{
-        position: sticky;
-    }
+   }
+   nav{
+   background: #ffffff;
+   width:100%;}
+
+   .main{
+       width:85%;
+       margin-bottom:30px;
+   }
+
+   footer{
+       bottom:0;
+       left: 0;
+       width:100%;
+
+   }
+     
 }
 @media screen and (max-width:768px){
 

@@ -52,11 +52,10 @@ h1{
     background-color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffffff;
-    display: inline-block;
+    float: left;
     margin:inherit;
     border: 1px solid #cccccc;
     border-top: none;
-    float: left;
     height:65px;
     padding-top:10px;
     padding-right:25px;
@@ -87,12 +86,15 @@ p{
 
 }
 footer{
-    background:#666666;
-    width: 100%;
-    padding: 20px;
-    bottom: 0;
-    position: sticky;
-    border-top: 8px solid #4aaaa5;
+
+        background:#666666;
+        width: 100%;
+        padding: 20px;
+        bottom: 0;
+        position: fixed;
+        border-top: 8px solid #4aaaa5;
+    
+    
 
 }
 
@@ -117,53 +119,75 @@ footer{
  }
  
  @media screen and (max-width:640px){
-  
-    
-   
+    body,*{
+         max-width: 640px;
+        position: static;
+     }
     header{
         text-align: center;
-         width:100%;
+         width:100%
     }
     h1{
         text-align: center;
         width:100%;
+        margin: auto;
+        
     }
     nav{
     background: #ffffff;
-    width:100%;
-      
-    }
+    width:100%;}
 
     .main{
-        width:100%;
-        margin-left:30px !important;
-        margin-right:20px !important;
-        margin-top: 10px;
+        width:90%;
+        margin-bottom: 30px;
+    }
+      
+    img{ 
+        margin-left: 12%;
+
+    }
+    p{
+     display: inline-block;
+     width:85%;
+     text-align: left;
+     margin: 25px;
+     margin-bottom: 5px;
+     margin-top: 15px;
+     font-size: 14px;
        
     }
-
-    img{
-    display: inline-block;
-    margin-left:20%;
-    margin-right: 30%;
-    padding: 20px;
-     }
-    p{
-        width:90%;
-        margin:0 auto;
-        margin-top: 20px;
+    footer{
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
     }
+    
  }
- @media screen and (max-width:768px){
+ @media screen and (max-width:768px){ 
+   
+     }
     header{
     width:100%;
+   
 }
 
-p{
-    float:left;
+   nav{
+       display: inline;
+       
+       
+   } 
+
+   main{
+       margin-left:40px;
+       margin-right:20px;
+       width:640px;
+   }
 }
 
-
+   
+    
 
 @media screen and (max-width:980px)
 {
