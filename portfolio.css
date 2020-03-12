@@ -104,10 +104,6 @@ h3{
     
     
 }
-img{ 
-
-
-}
 
 .row::after {
     content: "";
@@ -163,9 +159,6 @@ footer{
        margin-bottom:30px;
        margin-top:20px;
    }
-img{  
-  
-}
 .label{
 
 width: 200px;
@@ -244,3 +237,5 @@ padding-bottom: 15px;
         margin-bottom:25px;
        }
     }
+
+    
